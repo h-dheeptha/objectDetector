@@ -1,0 +1,39 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+
+h3{
+    color:lime;
+}
+
+#input_box{
+    background-color: lime;
+    border-color:rgb(21, 161, 3);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px lime;
+    width: 250px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color:black;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    bottom: 0;
+    width: 100%;
+    background-color: lime;
+    line-height: 3;
+    text-align: center;
+}
+
+canvas{
+    border: 5px solid lime;
+    border-radius: 10px;
+    margin-top: 130px;
+}

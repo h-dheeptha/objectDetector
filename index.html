@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>AI Object Finder</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body background="background.jpg">
+        <div class=" btn btn-primary heading">
+            <h1>
+                AI OBJECT FINDER
+            </h1>
+            <h3>The input name which you give should match the names present in the CoCo SSD model. Only then it will detect the object.</h3>
+        </div>
+        <center>
+            <h4 class="btn btn-info">Object Name:</h4>
+            <br>
+            <br>
+            <input type="text" id="input_box" placeholder="Start typing...">
+            <br>
+            <br>
+            <button class="btn btn-success" onclick="start()">Start</button>
+            <br>
+            <br>
+            <span>
+                <button class="btn btn-danger" id="status"></button>
+            </span>
+            <span>
+                <button class="btn btn-warning" id="object_found"></button>
+            </span>
+        </center>
+        <div class="copy_right_footer">
+            Developed by - H. Dheeptha
+          </div>
+        <script src="main.js"></script>
+    </body>
+</html>
